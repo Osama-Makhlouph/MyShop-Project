@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import braintree
 from django.shortcuts import render, redirect, get_object_or_404
 from django.conf import settings
@@ -42,8 +41,3 @@ def payment_done(request):
 
 def payment_canceled(request):
     return render(request, 'payment/canceled.html')
-=======
-from django.shortcuts import render
-
-# Create your views here.
->>>>>>> ec4cda376adcf7c9f5ea7ad0f9e6f8e17b3b6d74
